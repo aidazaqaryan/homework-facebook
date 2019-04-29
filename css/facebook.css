@@ -10,21 +10,16 @@ a:hover, a:active {
     text-decoration: underline;
 }
 #navigation {
-    background-color: #3e63a1;
-    background-image: linear-gradient(#4e69a2, #3b5998 50%);
+    background-color: #395d9a;
     height: 83px;
 }
 #all {
     display: flex;
     justify-content: space-around;
 }
-.logo {
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-    padding-top: 20px;
-    margin-right: 85px;
-    padding-top: 25px;
+#all img {
+    margin-top: 7px;
+    height: 76px;
 }
 .log-in {
     display: flex;
@@ -52,8 +47,8 @@ a:hover, a:active {
     border: #000000;
     box-shadow: 0 0 10px #3d4d69;
 }
-.log-in button:hover, .log-in button:active {
-    background-color: #2e508b;
+.log-in button:hover {
+    background-color: #395d9a;
 }
 #body {
     background-color: #edf0f5;
@@ -62,8 +57,8 @@ a:hover, a:active {
     justify-content: space-evenly;
 }
 .body-first {
-    padding-top: 30px;
-    padding-left: 96px;
+    margin-top: 30px;
+    margin-left: 55px;
 }
 .body-first p {
     font-size: 25px;
@@ -86,6 +81,9 @@ a:hover, a:active {
     margin: 5px;
     padding: 8px;
     margin-bottom: 13px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid #bdc7d8;
 }
 .text {
     font-size: 17px;
